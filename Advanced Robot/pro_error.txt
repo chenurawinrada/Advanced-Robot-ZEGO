@@ -1,0 +1,23 @@
+Exception in thread Thread-1:
+Error is: 'NoneType' object has no attribute 'join'
+Traceback (most recent call last):
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+Traceback (most recent call last):
+  File "D:\Advanced Robot\main.py", line 481, in start
+    self.run()
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    if rec.con().join(results) == username:
+AttributeError: 'NoneType' object has no attribute 'join'
+
+During handling of the above exception, another exception occurred:
+
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+TypeError: 'str' object is not callable
+  File "D:\Advanced Robot\main.py", line 499, in <module>
+    start()
+  File "D:\Advanced Robot\main.py", line 489, in start
+    log_error(e)
+  File "D:\Advanced Robot\main.py", line 148, in log_error
+    ctime = "[" + str(datetime.datetime.now()) + "]" + " " + text
+TypeError: can only concatenate str (not "AttributeError") to str

@@ -1,0 +1,23 @@
+{"intents":[
+	{"tag": "explorer",
+		"patterns": ["open explorer", "explorer", "windows explorer", "open windows explorer", "open explorer in windows"],
+		"responses": ["open explorer"]
+	},
+	{"tag": "notepad",
+		"patterns": ["open notepad", "open windows notepad", "notepad", "open notepad in windows"],
+		"responses": ["open notepad"]
+	},
+	{"tag": "internet",
+		"patterns": ["check internet connection", "connectivity", "check internet", "internet connectivity", "check connection"],
+		"responses": ["check connection"]
+	},
+	{"tag": "update",
+		"patterns": ["check for updates", "update", "is update available", "check updates"],
+		"responses": ["check update"]
+	},
+	{"tag": "chat",
+		"patterns": ["AI chat", "chat with me", "start chatting", "start chat", "chat"],
+		"responses": ["start chat"]
+	}
+]	
+}

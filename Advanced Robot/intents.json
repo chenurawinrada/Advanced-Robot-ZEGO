@@ -1,0 +1,35 @@
+{"intents":[
+	{"tag": "greeting",
+		"patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+		"responses": ["Hello", "Hi", "Hi there"]
+	},
+	{"tag": "goodbye",
+		"patterns": ["Bye", "See you later", "Goodbye"],
+		"responses": ["See you later", "Have a nice day", "Bye! Come bace again!"]
+	},
+	{"tag": "thanks",
+		"patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+		"responses": ["Happy to help", "Any time", "My pleasure", "You're most welcome"]
+	},
+	{"tag": "about",
+		"patterns": ["Who are you?", "What are you?", "Who you are?"],
+		"responses": ["I'm Zego, your assistant", "I am an artificial intelligent robot"]
+	},
+	{"tag": "love",
+		"patterns": ["I love you", "love you", "you are the love of my life"],
+		"responses": ["Wow!, That's, I don't know what to say, I love you too.", "I love you too", "Well, I have some feelings for you too"]
+	},
+	{"tag": "name",
+		"patterns": ["what is your name", "what should I call you?", "what's your name", "your name?"],
+		"responses": ["Zego", "I'm Zego", "Just call me Zego", "My name is Zego"]
+	},
+	{"tag": "help",
+		"patterns": ["Could you help me?", "give me a hand please", "Can you help?", "what can you do for me?", "I need a support", "I need help"],
+		"responses": ["How can I help you?", "Sure!", "What can I do for you?", "No problem!"]
+	},
+	{"tag": "joke",
+		"patterns": ["tell me a joke", "joke", "make me laugh"],
+		"responses": [""]
+	}
+]	
+}
