@@ -2,7 +2,7 @@
 Updated Version Of Previous Robot ZEGO (BETA)
 
 <b>Description</b><br>
-* I made a simple console bot named ZEGO before, so here is an updated and upgraded version of it. This new version can detect user face and unlock it's system using the user's face ID. Or unlock using the password. More functionality will be added in future updates. This bot has two AI models, One for choose the correct command and the otherone is for AI Chat (As a chat bot). You also can use chatgpt in this bot.
+* I made a simple console bot named ZEGO before, so here is an updated and upgraded version of it. This new version can detect user face and unlock it's system using the user's face ID. Or unlock using the password. More functionality will be added in future updates. This bot has two AI models, One for choose the correct command and the otherone is for AI Chat (As a chat bot). You also can use chatgpt in this bot.<b> Be aware that if you change the location of any file inside the folder, the system of the robot may not work properly.</b>
 
   <b>How to use,</b>
   * Download the repo.
