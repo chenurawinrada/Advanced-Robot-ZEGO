@@ -180,7 +180,7 @@ def check_for_updates():
         print("Checking for updates")
         if check_connection(timeout=1):
             # (Remember) Add the update url
-            url = 'https://raw.'
+            url = 'https://raw.githubusercontent.com/chenurawinrada/Advanced-Robot-ZEGO/main/Advanced%20Robot/Metadata/metadata.json'
             rqt = requests.get(url, timeout=5)
             meta_sc = rqt.status_code
             if meta_sc == 200:
